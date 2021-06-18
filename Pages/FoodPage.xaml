@@ -1,0 +1,31 @@
+﻿<Page x:Class="Pizza.Pages.FoodPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pizza.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="360" d:DesignWidth="792"
+      Title="FoodPage">
+
+	<Grid>
+		<Image x:Name="Pipironi" Source="/Resources/pipironi.jpg" HorizontalAlignment="Left" Height="165" Margin="26,24,0,0" VerticalAlignment="Top" Width="170"/>
+		<Image x:Name="Mechico" Source="/Pizza;component/Resources/mechico.jpg" HorizontalAlignment="Left" Height="165" Margin="296,24,0,0" VerticalAlignment="Top" Width="169"/>
+		<Image x:Name="Chicken" Source="/Pizza;component/Resources/chicken.jpg" HorizontalAlignment="Left" Height="165" Margin="570,24,0,0" VerticalAlignment="Top" Width="159"/>
+		<TextBlock HorizontalAlignment="Left" Height="24" Margin="535,0,0,0" TextWrapping="Wrap" Text="Кисло-сладкий цыпленок" VerticalAlignment="Top" Width="247" FontSize="18"/>
+		<TextBlock HorizontalAlignment="Left" Height="24" Margin="40,0,0,0" TextWrapping="Wrap" Text="Пепперони" VerticalAlignment="Top" Width="156" FontSize="18"/>
+		<TextBlock HorizontalAlignment="Left" Height="24" Margin="309,0,0,0" TextWrapping="Wrap" Text="Мексиканская" VerticalAlignment="Top" Width="156" FontSize="18"/>
+		<TextBox x:Name="ColPipironi" HorizontalAlignment="Left" Height="21" Margin="40,229,0,0" TextWrapping="Wrap" Text="кол-во" VerticalAlignment="Top" Width="54"/>
+		<TextBox x:Name="ColMechico" HorizontalAlignment="Left" Height="21" Margin="309,229,0,0" TextWrapping="Wrap" Text="кол-во" VerticalAlignment="Top" Width="54"/>
+		<TextBox x:Name="ColChicken" HorizontalAlignment="Left" Height="21" Margin="579,229,0,0" TextWrapping="Wrap" Text="кол-во" VerticalAlignment="Top" Width="54"/>
+		<TextBlock HorizontalAlignment="Left" Height="23" Margin="570,194,0,0" TextWrapping="Wrap" Text="Цена: 295руб." VerticalAlignment="Top" Width="159"/>
+		<TextBlock HorizontalAlignment="Left" Height="23" Margin="296,194,0,0" TextWrapping="Wrap" Text="Цена: 445руб." VerticalAlignment="Top" Width="159"/>
+		<TextBlock HorizontalAlignment="Left" Height="23" Margin="26,199,0,0" TextWrapping="Wrap" Text="Цена: 395руб." VerticalAlignment="Top" Width="159"/>
+		<Button x:Name="AddPipironi" Content="В корзину" HorizontalAlignment="Left" Height="23" Margin="112,227,0,0" VerticalAlignment="Top" Width="73" Click="AddPipironi_Click"/>
+		<Button x:Name="AddMechico" Content="В корзину" HorizontalAlignment="Left" Height="23" Margin="382,227,0,0" VerticalAlignment="Top" Width="73" Click="AddMechico_Click"/>
+		<Button x:Name="AddChicken" Content="В корзину" HorizontalAlignment="Left" Height="23" Margin="656,227,0,0" VerticalAlignment="Top" Width="73" Click="AddChicken_Click"/>
+		<Button x:Name="ButtonBack" Content="Назад" HorizontalAlignment="Left" Height="30" Margin="86,300,0,0" VerticalAlignment="Top" Width="89" Click="ButtonBack_Click"/>
+		<Button x:Name="ButtonNext" Content="Далее" HorizontalAlignment="Left" Height="30" Margin="612,300,0,0" VerticalAlignment="Top" Width="89" Click="ButtonNext_Click"/>
+
+	</Grid>
+</Page>

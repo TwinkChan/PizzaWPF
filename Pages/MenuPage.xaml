@@ -1,0 +1,19 @@
+﻿<Page x:Class="Pizza.Pages.MenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pizza.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="360" d:DesignWidth="792"
+      Title="MenuPage">
+
+	<Grid>
+		<TextBlock HorizontalAlignment="Left" Margin="353,91,0,0" TextWrapping="Wrap" Text=" Меню" VerticalAlignment="Top" FontSize="20" Width="73"/>
+		<Button x:Name="ButtonFood" Content="Пицца" HorizontalAlignment="Left" Height="25" Margin="353,134,0,0" VerticalAlignment="Top" Width="73" Click="ButtonFood_Click"/>
+		<Button x:Name="ButtonBeverages" Content="Напитки" HorizontalAlignment="Left" Height="25" Margin="353,175,0,0" VerticalAlignment="Top" Width="73" Click="ButtonBeverages_Click"/>
+		<Button x:Name="ButtonReceipt" Content="Чек" HorizontalAlignment="Left" Height="25" Margin="353,216,0,0" VerticalAlignment="Top" Width="73" Click="ButtonReceipt_Click"/>
+		<Button x:Name="ButtonReference" Content="Справка" HorizontalAlignment="Left" Height="25" Margin="353,257,0,0" VerticalAlignment="Top" Width="73" Click="ButtonReference_Click"/>
+
+	</Grid>
+</Page>
